@@ -11,6 +11,7 @@
 	<groupId>com.oulam.buyorsell</groupId>
 	<artifactId>buyorsell-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>buyorsell-backend</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -20,6 +21,9 @@
 	<developers>
 		<developer/>
 	</developers>
+	<modules>
+		<module>user-service</module>
+	</modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
